@@ -46,3 +46,17 @@
 .carte__texte{
     list-style: none;
 }
+
+.nom{
+    color: black;
+    font-family: var(--b);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.galerie{
+    color: black;
+    font-family: var(--r);
+    font-size: 18px;
+    list-style:disc;
+}
