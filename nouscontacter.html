@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nous contacter</title>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+	<script src="/assets/fonction.js"></script>
+    <title>Acceuil</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
-<body>
+
+
+<body class="fondG">
+     
+    <header class="headerG"> 
+     
+            <div class="titre1"><h1>L'éducation et les filles <br> de contraire <br> À complémentaire</h1></div>     
+            
+            <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+                <div class="nav-toogle-bar"></div>
+            </div>
+
+
+            <nav class="menu">
+                    <ul>
+                            <li class="menu__item"><a class="menu__link" href="index.html">Acceuil</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article1.html">L’éducation et les filles</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article2.html">Malala Yousafzai</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article3.html">Girl Rising, un documentaire de Richard Robbins…</a></li>
+                            <li class="menu__item"><a class="menu__link" href="frise.html">Frise</a></li>
+                            <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                            <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
+                            <li class="menu__item"><a class="menu__link" href="apropos.html">À propos</a></li>
+                            <li class="menu__item"><a class="menu__link" href="nouscontacter.html">Nous contacter</a></li>
+                            
+                    </ul>
+                
+            </nav> 
+            <img class="separationJ" src="public/img/header-violet.png" alt="desimg">
+            
+    </header>
+    <main>
 
     <h2>Bienvenue !</h2>
         <p>Besoin d'aide ? d'informations complémentaires ? d'une discussion privée ? N'hésitez pas à nous contacter !</p>
 
-    <fieldset>
+    <!-- <fieldset>
         <legend>Nom</legend>
         <input type="text">
     </fieldset>
@@ -24,15 +60,78 @@
     <fieldset>
         <legend>Message</legend>
         <input type="text">
-    </fieldset>
+    </fieldset> -->
 
-    <button>SOUMETTRE</button>
+    
+     <div class="section">
+         <div class="label"><label for="name">Nom</label></div>
 
-    <h3>Suivez-nous</h3>
-    <a href="https://www.instagram.com/"><img src="assets/icones/instagram 4.png" alt="icone instagram"></a>
-    <a href="https://www.linkedin.com/"><img src="assets\icones\linkedin 4.png" alt="icone linkedin"></a>
-    <a href="https://twitter.com/"><img src="assets\icones\twitter 4.png" alt="icone twitter"></a>
-    <h3>Suivez-nous</h3>
+         <input class="input" type="email" id="mail" name="mail" required
+         minlength="0" maxlength="20" size="10">
+         <div id="rectangle"></div>
+     </div>
 
+     
+
+     <div class="section">
+         <div class="label"><label   for="name">Mail</label></div>
+
+      <input class="input"  type="text" id="sujet" name="sujet" required
+         minlength="0" maxlength="20" size="10">
+         <div id="rectangle"></div> 
+     </div>
+
+     <div class="section">
+        <div class="label"><label   for="name">Messages:</label></div>
+
+     <textarea class="input_2"  type="text" id="sms" name="sms" required
+         minlength="0" maxlength="20">
+    </textarea>
+    <div id="rectangle_1"></div>
+     </div>
+
+     
+
+     <div class="espace__boutons">
+        <div id="rectangle_2"></div>
+         <button  class="bouton_envoyer">
+            SOUMMETTRE
+         </button>
+
+         <div class="espace__boutons"></div>
+
+    <h3 class="texte-suivez-nous_1">Suivez-nous</h3>
+    <div id="rectangle_3"></div>
+    <div id="rectangle_4"></div>
+    <div class="img_form">
+    <a href="https://www.instagram.com/"><img src="assets/icones/instagram4.png" alt="icone instagram"></a>
+    <a href="https://www.linkedin.com/"><img src="assets\icones/linkedin4.png" alt="icone linkedin"></a>
+    <a href="https://twitter.com/"><img src="assets/icones/twitter4.png" alt="icone twitter"></a>
+    </div>
+
+    <h3 class="texte-suivez-nous_2">Suivez-nous</h3>
+
+</main>
+<footer>
+
+                
+    <div class="footer__tout"> 
+    <h3>Mentions légales</h3>
+    
+       <a class="footer__mmi" href="http://mmimontbeliard.com/" aria-label="mmi"><img src="assets/icones/logo-mmi1.png" alt="icone mmi"></a> 
+       <p>projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard </p>
+
+    <h3>NOUS contacter</h3>
+        <a class=" footer__mail" href="mailto:ilkaymenn@gmail.com">ilkaymenn@gmail.com</a>
+        <h3>À propos</h3>
+        <p>Ilkay MEN C1 1ère année MMI</p>
+         </div>
+    <div class="footer__sociaux"> 
+        <a href="https://www.instagram.com/"><img src="assets/icones/instagram4.png" alt="icone instagram"></a>
+        <a href="https://www.linkedin.com/"><img src="assets/icones/linkedin4.png" alt="icone linkedin"></a>
+        <a href="https://twitter.com/"><img src="assets/icones/twitter4.png" alt="icone twitter"></a>
+    </div>
+
+</footer>
 </body>
 </html>

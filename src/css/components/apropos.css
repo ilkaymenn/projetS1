@@ -1,0 +1,12 @@
+.fondAP{
+  background-image: url("/public/img/apropos.png");
+  width: 375px;
+  height: 812px;
+}
+
+.noir{
+  color: black;
+  font-family: var(--r);
+  font-size: var(--principal);
+  
+}

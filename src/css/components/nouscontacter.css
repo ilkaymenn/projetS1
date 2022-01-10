@@ -1,0 +1,101 @@
+.section {
+    margin-bottom: 40px;
+
+}
+
+
+
+.label {
+    font-family: var(--r);
+    font-size: var(--texte);
+    color: #000;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.input {
+    position: absolute;
+    background-color: var(--jaune);
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-left: 10%;
+    color: #000;
+    z-index: 2;
+}
+
+.input_2 {
+    position: absolute;
+    background-color: var(--jaune);
+    border: none;
+    height: 83px;
+    width: 300px;
+    margin-left: 10%;
+    color: #000;
+    z-index: 2;
+    
+}
+
+
+.bouton_envoyer {
+    position: relative;
+    display: block;
+    font-family: var(--r);
+    font-size: 15px;
+    background-color: var(--jaune);
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-left: 25%;
+    margin-bottom: 46px;
+    z-index: 2;
+}
+
+#rectangle {
+    position: relative;
+    height: 38px;
+    width: 150px;
+    margin-left: 12%;
+    margin-top: 24px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#rectangle_1 {
+    position: relative;
+    height: 83px;
+    width: 300px;
+    margin-left: 12%;
+    margin-top: 30px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#rectangle_2 {
+    position: relative;
+    height: 38px;
+    width: 150px;
+    margin-left: 27%;
+    top: 40px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.espace__boutons {
+    margin: 10%;
+}
+
+.texte-suivez-nous_1 {
+    position: absolute;
+    writing-mode:vertical-rl;
+    text-orientation:sideways;
+    top: 100px;
+    left: 276px;
+    
+}
+
+.texte-suivez-nous_2 {
+    position: absolute;
+... (48 lignes restantes)

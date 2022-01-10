@@ -18,6 +18,7 @@
 @import url("components/tweet.css");
 @import url("components/menu.css");
 @import url("components/gallerie.css");
+@import url("components/apropos.css");
 
 /* layout */
 @import url("layout/header.css");
