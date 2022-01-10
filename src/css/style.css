@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Source+Serif+Pro:ital,wght@0,300;0,400;1,200&display=swap');
+
+/* Vendors */
+@import url("vendors/normalize.css");
+
+/* Utils */
+@import url("utils/variables.css");
+
+/* Base */
+@import url("base/main.css");
+@import url("base/media.css");
+
+@import url("base/gabarit.css");
+
+
+/* componants */
+@import url("components/article.css");
+@import url("components/tweet.css");
+@import url("components/menu.css");
+
+/* layout */
+@import url("layout/header.css");
+@import url("layout/footer.css");

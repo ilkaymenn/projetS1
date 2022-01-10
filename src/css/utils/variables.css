@@ -1,0 +1,22 @@
+:root{
+
+/* Color styles */
+--jaune: rgba(242, 203, 5, 1);
+--violet: rgba(56, 1, 64, 1);
+--gris: rgba(229, 229, 229, 1);
+
+/* Text-size styles */
+--texte: 14px;
+--titre: 18px;
+--perso: 14px;
+--principal: 20px;
+--tfooter: 13px;
+--ifooter: 10px;
+--legende: 11px;
+--menu: 24px;
+
+ /*Font-family styles*/
+--b :'Lora';
+--r : 'Source Serif Pro';
+
+}

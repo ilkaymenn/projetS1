@@ -1,0 +1,48 @@
+.carte__elisa,
+.carte__julie,
+.carte__Malala
+{
+    background-color: var(--jaune);
+    color: var(--noir);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+}
+
+.carte__elisa ul,
+.carte__julie ul,
+.carte__Malala ul
+{
+    list-style: none;
+  
+}
+
+
+.carte__elisa h2,
+.carte__julie h2
+{
+    display:flex;
+    justify-content: center;
+}
+.img__elisa,
+.img__julie,
+.img__Malala
+{
+    border-radius: 55%;
+    width: 50%;
+  
+}
+.carte__texte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.carte__texte{
+    list-style: none;
+}

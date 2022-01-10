@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after
+ {
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--gris);
+}
+
+main{
+  margin-top: 6rem;
+}
+
+h1{
+  color: var(--violet);
+  font-family: var(--b);
+  font-size: var(--principal);
+  margin-left: 0.5rem;
+}
+
+h2{
+  color: var(--violet);
+  font-family: var(--r);
+  font-size: var(--titre);
+  padding: 2px;
+  padding-top: 2px;
+  padding-left: 10px;
+  background-color: var(--jaune);
+}
+
+p{  color: var(--violet);
+  font-family: var(--r);
+  font-size: var(--perso);
+  font-style: italic;
+  margin: 20px;
+}
+
+.index{
+  background-color: var(--gris);
+}
+
+.header1{
+  background-color: var(--gris);
+}
+
+.titre2{
+  color: var(--violet);
+  font-family: var(--b);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.texte {
+  color: black;
+  font-family: var(--r);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.glossaire {
+  color: black;
+}
+/* 
+.fondG{
+  background-image: url("/public/img/Glossaire.png");
+} */
