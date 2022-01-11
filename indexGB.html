@@ -1,51 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+	<script src="/assets/fonction.js"></script>
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
-<body>
-    
-    <header>
-        
-        <h1>Education and Girls ; <br>
-            from Contrary to Complementary 
-        </h1>
 
-        <a href="article1GB.html">Lien hypertexte</a>
-        <a href="article2GB.html">Lien hypertexte</a>
-        <a href="article3GB.html">Lien hypertexte</a>
-        <a href="glossary.html">Lien hypertexte</a>
-        <a href="aboutus.html">Lien hypertexte</a>
-        <a href="contactus.html">Lien hypertexte</a>
-        <a href="index.html">Lien hypertexte</a>
 
+<body class="fondG">
+     
+    <header class="headerG"> 
+            <div class="titre1"><h1>Education and Girls ;<br> from Contrary <br> to Complementary </h1></div>     
+            
+            <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+                <div class="nav-toogle-bar"></div>
+            </div>
+
+
+            <nav class="menu">
+                    <ul>
+                            <li class="menu__item"><a class="menu__link" href="indexGB.html">Homepage</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article1GB.html">Education and Girls</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article2GB.html">Malala Yousafzai</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article3GB.html">Girl Rising, a documentary by Richard Robbins...</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">Frise</a></li>
+                            <li class="menu__item"><a class="menu__link" href="gallery.html">Gallery</a></li>
+                            <li class="menu__item"><a class="menu__link" href="glossary.html">Glossary</a></li>
+                            <li class="menu__item"><a class="menu__link" href="aboutus.html">About us</a></li>
+                            <li class="menu__item"><a class="menu__link" href="contactus.html">Contact us</a></li>
+                            
+                    </ul>
+                
+            </nav> 
+            <img class="separationJ" src="public/img/header-violet.png" alt="desimg">
+            
     </header>
+    <main> 
 
-    <h2>Did you know that letting girls go to school can help curb poverty ?</h2>
-        <p>Feminism is a word that is very often used and often taken up in a rather pejorative connotation. It is important to give a real meaning to this term, which has been tarnished by the media and their way of conceiving information. <br><br>
+        <h2 class="titre2">Did you know that letting girls go to school can help curb poverty ?</h2>
+        <p class="texte">Feminism is a word that is very often used and often taken up in a rather pejorative connotation. It is important to give a real meaning to this term, which has been tarnished by the media and their way of conceiving information. <br><br>
             Many inequalities are too often ignored when they should be the very basis of the fight for gender equality. <br><br>
-            One such cause that is long overdue is the lack of education for girls around the world. </p>
-    
-    <h2>Video made by us</h2>
-        <img src="public\img\partie.vidéo.webp" alt="">
-        <p>This is precisely what our project is about, which aims to produce a mobile information site for everyone around the theme of women, education and girls. <br><br>
+            One such cause that is long overdue is the lack of education for girls around the world.</p>
+
+    <h2 class="titre2">Video made by us</h2>
+        <video class="video" controls width="250">
+
+            <source src="viddd/MONO-010 (1).wav"
+                    type="video/wav">
+        
+            <source src="viddd/P1080519 (1).MP4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <p class="texte">This is precisely what our project is about, which aims to produce a mobile information site for everyone around the theme of women, education and girls. <br><br>
             Our site will stand out from the rest, especially because it will be ahead of the news. The news will be updated frequently to keep the information as close to you as possible. So, whether you are an activist or just looking for information, you will be transported into the real world of feminism. 
-        </p>
+       </p>
 
-    <h3>Education and Girls</h3>
-        <img src="public\img\80205529 1.webp" alt="">
-        <p>a look back at girls' education and 1 significant event.</p>
+        <div class="card">
+            <h3 class="card__title">Education and Girls</h3>
+            <img class="card__img" src="public/img/802055291.webp"/>
+            <div class="card__caption_back1">
+                <p class="card__excerpt">a look back at girls' education and 1 significant event.</p>
+                <a class="card__link" href="article1.html">Read more</a>
+            </div>
+        </div>
 
-    <h3>Malala Yousafzai</h3>
-        <img src="public\img\Malala-Yousafzai 1.webp" alt="">
-        <p>women's rights activist but also victim of an assassination attempt.</p>
+        <article class="card">
+            <h3 class="card__title">Malala Yousafzai</h3>
+            <img class="card__img" src="public/img/Malala-Yousafzai1.webp"/>
+            <div class="card__caption_back2">
+                <p class="card__excerpt">women's rights activist but also victim of an assassination attempt.</p>
+                <a class="card__link" href="article2.html">Read more</a>
+            </div>
+            </article>
 
-    <h3>Girl Rising</h3>
-        <img src="public\img\Girl_Rising 1.webp" alt="">
-        <p>documentary about 9 girls unable to study due to various obstacles.</p>
+        <article class="card">
+            <h3 class="card__title">Girl Rising</h3>
+            <img class="card__img" src="public/img/Girl_Rising1.webp"/>
+            <div class="card__caption_back3">
+                <p class="card__excerpt">documentary about 9 girls unable to study due to various obstacles.</p>
+                <a class="card__link" href="article3.html">Read more</a>
+            </div>
+            </article>
+
+            </main>
+
+<footer>
+
+            
+            <div class="footer__tout"> 
+            <h3>Mentions légales</h3>
+            
+               <a class="footer__mmi" href="http://mmimontbeliard.com/" aria-label="mmi"><img src="assets/icones/logo-mmi1.png" alt="icone mmi"></a> 
+               <p>projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard </p>
+
+            <h3>NOUS contacter</h3>
+                <a class=" footer__mail" href="mailto:ilkaymenn@gmail.com">ilkaymenn@gmail.com</a>
+                <h3>À propos</h3>
+                <p>Ilkay MEN C1 1ère année MMI</p>
+                 </div>
+            <div class="footer__sociaux"> 
+                <a href="https://www.instagram.com/"><img src="assets/icones/instagram4.png" alt="icone instagram"></a>
+                <a href="https://www.linkedin.com/"><img src="assets/icones/linkedin4.png" alt="icone linkedin"></a>
+                <a href="https://twitter.com/"><img src="assets/icones/twitter4.png" alt="icone twitter"></a>
+            </div>
+        
+</footer>
+
+
+</main>
 
 </body>
 </html>
+
