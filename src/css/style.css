@@ -19,7 +19,9 @@
 @import url("components/menu.css");
 @import url("components/gallerie.css");
 @import url("components/apropos.css");
+@import url("components/carrousel.css");
 
 /* layout */
 @import url("layout/header.css");
 @import url("layout/footer.css");
+

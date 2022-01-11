@@ -1,0 +1,37 @@
+.carrousel-grid {
+    display: grid;                                    
+    grid-template-columns: 1fr 2fr 1fr;                
+    row-gap: 0px;                                    
+    column-gap: 0px;                                
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.carrousel {
+    grid-column: 2;
+    grid-row: 2;
+    width: 306px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.images13 {
+    width: 306px;
+    height: 95px;
+    left:0;
+}
+
+.images13 img {
+    width: 306px;
+    height: 95px;
+}
+
+.image13 {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}

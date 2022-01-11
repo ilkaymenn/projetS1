@@ -62,7 +62,8 @@ p{  color: var(--violet);
 .glossaire {
   color: black;
 }
-/* 
-.fondG{
-  background-image: url("/public/img/Glossaire.png");
-} */
+
+.about{
+  color: black;
+  font-size: 18px;
+}
