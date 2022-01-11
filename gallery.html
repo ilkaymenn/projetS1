@@ -1,39 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+	<script src="/assets/fonction.js"></script>
     <title>Gallery</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
-<body>
 
-    <h2>Elisa Lemonnier</h2>
-        <img src="" alt="">
-        <ul>
-            <li>born on 24 March 1805 in Sorèze</li>
-            <li>died 5 June 1865 at Paris 8ᵉ.</li>
-        </ul>
-        <p>Was a French educator, notably known for founding vocational education for girls (in France).</p>
 
-    <h2>Julie-Victoire Daubié</h2>
-        <img src="public\img\image.webp" alt="">
-        <ul>
-            <li>born on 26 March 1824 in Bains-les-Bains</li>
-            <li>died 26 August 1874 at Fontenoy-le-Château // French journalist, women's rights activist</li>
-        </ul>
-        <p>Notably known for being the first woman to obtain the baccalaureate on 17 August 1861</p>
+<body class="fondG">
+     
+    <header class="headerG"> 
+            <div class="titre1"><h1>Education and Girls ;<br> from Contrary <br> to Complementary </h1></div>     
+            
+            <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+                <div class="nav-toogle-bar"></div>
+            </div>
+
+
+            <nav class="menu">
+                    <ul>
+                            <li class="menu__item"><a class="menu__link" href="indexGB.html">Homepage</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article1GB.html">Education and Girls</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article2GB.html">Malala Yousafzai</a></li>
+                            <li class="menu__item"><a class="menu__link" href="article3GB.html">Girl Rising, a documentary by Richard Robbins...</a></li>
+                            <li class="menu__item"><a class="menu__link" href="friseGB.html">Frise</a></li>
+                            <li class="menu__item"><a class="menu__link" href="gallery.html">Gallery</a></li>
+                            <li class="menu__item"><a class="menu__link" href="glossary.html">Glossary</a></li>
+                            <li class="menu__item"><a class="menu__link" href="aboutus.html">About us</a></li>
+                            <li class="menu__item"><a class="menu__link" href="contactus.html">Contact us</a></li>
+                            
+                    </ul>
+                
+            </nav> 
+            <img class="separationJ" src="public/img/header-violet.png" alt="desimg">
+            
+    </header>
+    
+  
+      
+
    
-    <h2>Malala Yousafzai</h2>
-        <img src="public\img\Malala-Yousafzai 1.webp" alt="">
-        <ul>
-            <li>born on: 12 July 1997 in Mingora, Pakistan</li>
-        </ul>
-        <p>Pakistani women's rights activist. She is internationally known for writing a blog for the BBC, but also for an assassination attempt that seriously injured her.</p>
-        <q>"A woman is not only a mother, a sister, a wife. A woman has the right to her own identity." <br><br>
-            Nobel Peace Prize speech, 10 October 2014
-        </q>
-        <p>click to see the whole article</p>
+    <main>
+        <div class="carte__elisa"> 
+            <h2 class="nom">Elisa Lemonnier</h2>
+                <img class="img__elisa" src="public/img/Élisa_Lemonnier_1805-1865 1.webp" alt="">
+                <div class="carte__texte"> 
+                <ul>
+                    <li class="galerie">born on 24 March 1805 in Sorèze</li>
+                    <li class="galerie">died 5 June 1865 at Paris 8ᵉ.</li>
+                </ul>
+                <p class="galerie">Was a French educator, notably known for founding vocational education for girls (in France).</p>
+                </div>  
+        </div>
+        <div class="carte__julie" > 
+        <h2 class="nom">Julie-Victoire Daubié</h2>
+            <img class="img__julie" src="public/img/J2.webp" alt="">
+            <div class="carte__texte">
+            <ul>
+                <li class="galerie">born on 26 March 1824 in Bains-les-Bains</li>
+                <li class="galerie">died 26 August 1874 at Fontenoy-le-Château // French journalist, women's rights activist</li>
+            </ul>
+            <p class="galerie">Notably known for being the first woman to obtain the baccalaureate on 17 August 1861</p>
+        </div>
+     </div>
+    
+        <div class="carte__Malala" >
+            
+                <h2 class="nom">Malala Yousafzai</h2>
+                <img class="img__Malala" src="public/img/Malala-Yousafzai2.webp" alt="">
+            <div class="carte__texte" > 
+                <ul>
+                    <li class="galerie">born on: 12 July 1997 in Mingora, Pakistan</li>
+                </ul>
+                <p class="galerie">Pakistani women's rights activist. She is internationally known for writing a blog for the BBC, but also for an assassination attempt that seriously injured her.</p>
+                <q class="galerie">"A woman is not only a mother, a sister, a wife. A woman has the right to her own identity." <br><br>
+                    Nobel Peace Prize speech, 10 October 2014
+                    </q>
+                <p class="galerie">click to see the whole article</p>
+        </div>
+    </div> 
+    </main>
 
-</body>
-</html>
+
+
+    <footer>
+           
+        
+        <div class="footer__tout"> 
+        <h3>Legal Notice</h3>
+        
+           <a class="footer__mmi" href="http://mmimontbeliard.com/" aria-label="mmi"><img src="assets/icones/logo-mmi1.png" alt="icone mmi"></a> 
+           <p>project carried out as part of an educational exercise at the <a href="http://mmimontbeliard.com/">MMI department of Montbéliard</a></p>
+    
+        <h3>Contact us</h3>
+            <a class=" footer__mail" href="mailto:ilkaymenn@gmail.com">ilkaymenn@gmail.com</a>
+            <h3>About us</h3>
+            <p>Ilkay MEN C1 1st year MMI</p>
+             </div>
+        <div class="footer__sociaux"> 
+            <a href="https://www.instagram.com/"><img src="assets/icones/instagram4.png" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/"><img src="assets/icones/linkedin4.png" alt="icone linkedin"></a>
+            <a href="https://twitter.com/"><img src="assets/icones/twitter4.png" alt="icone twitter"></a>
+        </div>
+    
+    </footer>
+      
+    
+    
+    
+    
+    </body>
+    </html>

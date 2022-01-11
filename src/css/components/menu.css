@@ -1,5 +1,4 @@
 .nav-toogle{
-  /* background-color: white;  */
   width: 30px;
   height: 30px;
   position: absolute;
@@ -15,7 +14,7 @@
 .nav-toogle-bar::after
 {
   content: "";
-  background-color: black;
+  background-color: var(--jaune);
   width: 100%;
   height: 2px;
   position: absolute;
@@ -33,7 +32,7 @@
 
 .menu-open .nav-toogle-bar{
   transform: rotate(135deg);
-  background-color:white;
+  background-color: var(--jaune);
 
 
 }
@@ -41,7 +40,7 @@
 .menu-open .nav-toogle-bar::after
 {
   transform: rotate(90deg);
-  background-color: white;
+  background-color: var(--jaune);
   top: 0;
   
 }
@@ -89,7 +88,7 @@
 
 .menu a{
   color: var(--jaune);
-  font-size:20px;
+  font-size:25px;
   align-items: center;
   display: flex;
   
