@@ -98,4 +98,55 @@
 
 .texte-suivez-nous_2 {
     position: absolute;
-... (48 lignes restantes)
+    writing-mode:vertical-rl;
+    text-orientation:sideways;
+    top: 245px;
+    left: 325px;
+    
+}
+
+.img_form { 
+    position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        padding-top: 10px;
+        z-index: 1;
+        width: 82px;
+        height: 75px;
+        justify-content: center;
+        top: 182px;
+        margin-left: 275px;
+        z-index: 6;
+        
+
+}
+
+img{
+    margin-bottom: 15px;
+    
+}
+
+#rectangle_3 {
+    position: absolute;
+    height: 147px;
+    width: 28px;
+    margin-left: 278px;
+    top: 150px;
+    background-color: var(--jaune);
+    z-index: 4;
+}
+
+#rectangle_4 {
+    position: absolute;
+    height: 147px;
+    width: 28px;
+    margin-left: 273px;
+    top: 143px;
+    background-color: #000;
+    z-index: 4;
+}
+
+.cont{
+    color: black;
+}
